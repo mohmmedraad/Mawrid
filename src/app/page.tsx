@@ -8,6 +8,8 @@ import MaxWidthWrapper from "@/components/max-width-wrapper";
 import ProjectList from "@/components/project-list";
 import type { Project } from "@/types";
 
+export const dynamic = "force-static";
+
 function getProjects() {
 	const PROJECTS_DIRECTORY = "./src/data/projects.json";
 	const projectsDir = resolve(process.cwd(), PROJECTS_DIRECTORY);
