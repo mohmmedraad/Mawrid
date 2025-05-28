@@ -33,9 +33,9 @@ export default async function Hero() {
 	}
 	return (
 		<section>
-			<div className="mx-auto max-w-3xl text-center">
+			<div className="mx-auto max-w-4xl text-center">
 				<h1 className="mb-4 font-bold text-5xl text-gray-900 leading-[1.1] md:text-6xl">
-					Where Islamic Projects Come Together
+					WHERE ISLAMIC PROJECTS COME TOGETHER
 				</h1>
 				<p className="mb-6 text-base text-gray-700 md:text-xl">
 					Mawrid is a platform that brings together diverse Islamic initiatives
