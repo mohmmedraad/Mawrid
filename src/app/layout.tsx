@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 	authors: SITE.authors,
 	creator: SITE.creator.name,
 	generator: "Next.js",
-	category: "",
+	category: SITE.category,
 	openGraph: {
 		type: "website",
 		locale: "en_US",
@@ -23,13 +23,13 @@ export const metadata: Metadata = {
 		siteName: SITE.name,
 		description: SITE.description,
 		url: SITE.url,
-		images: `${SITE.url}/og.png`,
+		images: "/og.png",
 	},
 	twitter: {
 		card: "summary_large_image",
 		title: `${SITE.name} - ${SITE.title}`,
 		description: SITE.description,
-		images: `${SITE.url}/og.png`,
+		images: "/og.png",
 		creator: SITE.creator.socials.x,
 	},
 	icons: {
