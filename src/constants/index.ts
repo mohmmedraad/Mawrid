@@ -15,7 +15,7 @@ export const SITE = {
 	title: "Islamic Projects Directory",
 	description:
 		"A platform that brings together Islamic projects from around the world, making it easier to discover, access, and support them.",
-	url: "https://mawrid.netlify.app/",
+	url: "https://mawrid.netlify.app",
 	category: "Islamic Resource Directory",
 	keywords: [
 		"Islamic projects",

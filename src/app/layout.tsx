@@ -23,17 +23,17 @@ export const metadata: Metadata = {
 		siteName: SITE.name,
 		description: SITE.description,
 		url: SITE.url,
-		images: "/og.png",
+		images: `${SITE.url}/og.png`,
 	},
 	twitter: {
 		card: "summary_large_image",
 		title: `${SITE.name} - ${SITE.title}`,
 		description: SITE.description,
-		images: "/og.png",
+		images: `${SITE.url}/og.png`,
 		creator: SITE.creator.socials.x,
 	},
 	icons: {
-		icon: "/favicon.ico",
+		icon: `${SITE.url}/favicon.ico`,
 	},
 };
 
