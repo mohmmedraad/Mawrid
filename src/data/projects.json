@@ -1,0 +1,16 @@
+[
+	{
+		"link": "https://quran.com",
+		"title": "Quran.com",
+		"image": "https://quran.com/images/logo/Logo@192x192.png",
+		"categories": ["quran-tafsir", "multilingual"],
+		"description": "A popular online Qur'an reader with translations, tafsir, and recitations."
+	},
+	{
+		"link": "https://yaqeeninstitute.org",
+		"title": "Yaqeen Institute",
+		"image": "https://yaqeeninstitute.org/meta/rebrand-2025/favicon-32x32.png",
+		"categories": ["education", "research-publications", "community-dawah"],
+		"description": "Research-based Islamic content addressing doubts and deepening faith."
+	}
+]
