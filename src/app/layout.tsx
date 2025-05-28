@@ -1,3 +1,4 @@
+import Providers from "@/components/providers";
 import "@/styles/globals.css";
 
 import type { Metadata } from "next";
@@ -19,7 +20,9 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
 	return (
 		<html lang="en" className={`${geist.variable}`}>
-			<body>{children}</body>
+			<body>
+				<Providers>{children}</Providers>
+			</body>
 		</html>
 	);
 }
