@@ -19,25 +19,25 @@ export async function generateMetadata({
 
 	return {
 		title: {
-			default: `${t("site_name")} - ${t("title")}`,
-			template: `%s - ${t("site_name")}`,
+			default: `${t("name")} - ${t("title")}`,
+			template: `%s - ${t("name")}`,
 		},
 		description: t("description"),
 		keywords: t("keywords"),
-		creator: t("site_name"),
-		category: t("site_category"),
+		creator: t("name"),
+		category: t("category"),
 		openGraph: {
 			type: "website",
 			locale: locale === "ar" ? "ar_AR" : "en_US",
-			title: `${t("site_name")} - ${t("title")}`,
-			siteName: t("site_name"),
+			title: `${t("name")} - ${t("title")}`,
+			siteName: t("name"),
 			description: t("description"),
 			url: SITE.url,
 			images: `${SITE.url}/og.png`,
 		},
 		twitter: {
 			card: "summary_large_image",
-			title: `${t("site_name")} - ${t("title")}`,
+			title: `${t("name")} - ${t("title")}`,
 			description: t("description"),
 			images: `${SITE.url}/og.png`,
 			creator: SITE.creator.socials.x,
