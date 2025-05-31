@@ -14,5 +14,14 @@
 		"fiqh-fatwa": "Fiqh & Fatwas",
 		"media": "Video & Media",
 		"charity": "Humanitarian & Charity"
+	},
+	"metadata": {
+		"site_name": "Mawrid",
+		"site_title": "Where Islamic Projects Come Together",
+		"site_description": "Mawrid is a platform that brings together diverse Islamic initiatives to simplify discovery, support collaboration, and avoid duplication.",
+		"keywords": ["Islam", "Quran", "Islamic Projects", "Tafsir", "Hadith"],
+		"author_name": "Mohammed Raad",
+		"creator_name": "Mohammed Raad",
+		"site_category": "Islamic Platform"
 	}
 }

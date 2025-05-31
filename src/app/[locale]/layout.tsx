@@ -6,42 +6,49 @@ import "@/styles/globals.css";
 
 import type { Metadata } from "next";
 import { type Locale, hasLocale } from "next-intl";
-import { setRequestLocale } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { NextFont } from "next/dist/compiled/@next/font";
 import { Cairo, Montserrat, Tajawal } from "next/font/google";
 import { notFound } from "next/navigation";
 
-export const metadata: Metadata = {
-	title: {
-		default: `${SITE.name} - ${SITE.title}`,
-		template: `%s - ${SITE.name}`,
-	},
-	description: SITE.description,
-	keywords: SITE.keywords,
-	authors: SITE.authors,
-	creator: SITE.creator.name,
-	generator: "Next.js",
-	category: SITE.category,
-	openGraph: {
-		type: "website",
-		locale: "en_US",
-		title: `${SITE.name} - ${SITE.title}`,
-		siteName: SITE.name,
-		description: SITE.description,
-		url: SITE.url,
-		images: `${SITE.url}/og.png`,
-	},
-	twitter: {
-		card: "summary_large_image",
-		title: `${SITE.name} - ${SITE.title}`,
-		description: SITE.description,
-		images: `${SITE.url}/og.png`,
-		creator: SITE.creator.socials.x,
-	},
-	icons: {
-		icon: `${SITE.url}/favicon.ico`,
-	},
-};
+export async function generateMetadata({
+	params,
+}: { params: Promise<{ locale: Locale }> }): Promise<Metadata> {
+	const { locale } = await params;
+	const t = await getTranslations({ locale, namespace: "metadata" });
+
+	return {
+		title: {
+			default: `${t("site_name")} - ${t("title")}`,
+			template: `%s - ${t("site_name")}`,
+		},
+		description: t("description"),
+		keywords: t("keywords"),
+		creator: t("site_name"),
+		category: t("site_category"),
+		openGraph: {
+			type: "website",
+			locale: locale === "ar" ? "ar_AR" : "en_US",
+			title: `${t("site_name")} - ${t("title")}`,
+			siteName: t("site_name"),
+			description: t("description"),
+			url: SITE.url,
+			images: `${SITE.url}/og.png`,
+		},
+		twitter: {
+			card: "summary_large_image",
+			title: `${t("site_name")} - ${t("title")}`,
+			description: t("description"),
+			images: `${SITE.url}/og.png`,
+			creator: SITE.creator.socials.x,
+		},
+		icons: {
+			icon: `${SITE.url}/favicon.ico`,
+		},
+		generator: "Next.js",
+		authors: SITE.authors,
+	};
+}
 
 const enFont = Montserrat({
 	subsets: ["latin"],
