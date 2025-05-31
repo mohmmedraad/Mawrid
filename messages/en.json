@@ -1,0 +1,18 @@
+{
+	"hero-title": "WHERE ISLAMIC PROJECTS COME TOGETHER",
+	"hero-description": "Mawrid is a platform that brings together diverse Islamic initiatives to simplify discovery, support collaboration, and avoid duplication.",
+	"star": "Star",
+	"star-on-github": "Star on GitHub",
+	"categories": {
+		"quran-tafsir": "Qur'an & Tafsir",
+		"hadith-sunnah": "Hadith & Sunnah",
+		"education": "Islamic Education",
+		"research-publications": "Research & Publications",
+		"multilingual": "Multilingual Projects",
+		"international": "International Initiatives",
+		"community-dawah": "Community & Da'wah",
+		"fiqh-fatwa": "Fiqh & Fatwas",
+		"media": "Video & Media",
+		"charity": "Humanitarian & Charity"
+	}
+}

@@ -5,3 +5,5 @@ export type Project = {
 	categories: string[];
 	description: string;
 };
+
+export type LangDir = "rtl" | "ltr";
