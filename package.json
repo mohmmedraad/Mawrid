@@ -15,7 +15,9 @@
 		"prepare": "husky"
 	},
 	"dependencies": {
+		"@radix-ui/react-direction": "^1.1.1",
 		"@radix-ui/react-scroll-area": "^1.2.9",
+		"@radix-ui/react-select": "^2.2.5",
 		"@radix-ui/react-slot": "^1.2.3",
 		"@t3-oss/env-nextjs": "^0.12.0",
 		"class-variance-authority": "^0.7.1",
@@ -23,6 +25,7 @@
 		"lucide-react": "^0.511.0",
 		"motion": "^12.15.0",
 		"next": "^15.2.3",
+		"next-intl": "^4.1.0",
 		"nuqs": "^2.4.3",
 		"react": "^19.0.0",
 		"react-dom": "^19.0.0",

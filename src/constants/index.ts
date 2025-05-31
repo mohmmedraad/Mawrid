@@ -6,9 +6,11 @@ import {
 	HeartHandshake,
 	Landmark,
 	Languages,
+	type LucideIcon,
 	MonitorPlay,
 	Users,
 } from "lucide-react";
+import type { Messages } from "next-intl";
 
 export const SITE = {
 	name: "Mawrid",
@@ -46,55 +48,30 @@ export const SITE = {
 	},
 };
 
-export const CATEGORIES = [
+export const CATEGORIES: {
+	key: keyof Messages["categories"];
+	value: string;
+	icon: LucideIcon;
+}[] = [
+	{ key: "quran-tafsir", value: "quran-tafsir", icon: Book },
+	{ key: "hadith-sunnah", value: "hadith-sunnah", icon: Book },
+	{ key: "education", value: "education", icon: GraduationCap },
 	{
-		label: "Qur'an & Tafsir",
-		value: "quran-tafsir",
-		icon: Book,
-	},
-	{
-		label: "Hadith & Sunnah",
-		value: "hadith-sunnah",
-		icon: Book,
-	},
-	{
-		label: "Islamic Education",
-		value: "education",
-		icon: GraduationCap,
-	},
-	{
-		label: "Research & Publications",
+		key: "research-publications",
 		value: "research-publications",
 		icon: FileText,
 	},
-	{
-		label: "Multilingual Projects",
-		value: "multilingual",
-		icon: Languages,
-	},
-	{
-		label: "International Initiatives",
-		value: "international",
-		icon: Globe,
-	},
-	{
-		label: "Community & Da'wah",
-		value: "community-dawah",
-		icon: Users,
-	},
-	{
-		label: "Fiqh & Fatwas",
-		value: "fiqh-fatwa",
-		icon: Landmark,
-	},
-	{
-		label: "Video & Media",
-		value: "media",
-		icon: MonitorPlay,
-	},
-	{
-		label: "Humanitarian & Charity",
-		value: "charity",
-		icon: HeartHandshake,
-	},
+	{ key: "multilingual", value: "multilingual", icon: Languages },
+	{ key: "international", value: "international", icon: Globe },
+	{ key: "community-dawah", value: "community-dawah", icon: Users },
+	{ key: "fiqh-fatwa", value: "fiqh-fatwa", icon: Landmark },
+	{ key: "media", value: "media", icon: MonitorPlay },
+	{ key: "charity", value: "charity", icon: HeartHandshake },
 ];
+
+export const I18N = {
+	supportedLocals: ["ar", "en"],
+	defaultLocale: "en",
+	rtlLocals: ["ar"],
+	ltrLocals: ["en"],
+} as const;

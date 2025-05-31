@@ -3,11 +3,14 @@
 import { CATEGORIES } from "@/constants";
 import { useCategoriesSearch } from "@/hooks/use-categories-search";
 import { cn } from "@/lib/utils";
+import { useTranslations } from "next-intl";
 import MaxWidthWrapper from "./max-width-wrapper";
 import { ScrollArea, ScrollBar } from "./ui/scroll-area";
 
 export default function Categories() {
 	const [categories, setCategories] = useCategoriesSearch();
+	const t = useTranslations("categories");
+
 	const handleCategoryChange = (category: string) => {
 		setCategories((prevCategories) => {
 			if (prevCategories.includes(category)) {
@@ -34,7 +37,7 @@ export default function Categories() {
 							)}
 						>
 							<category.icon className="size-4 shrink-0" />
-							<span className="shrink-0">{category.label}</span>
+							<span className="shrink-0">{t(category.key)}</span>
 						</button>
 					))}
 				</div>
