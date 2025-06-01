@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./public/logo.png" height="100" alt="Mawrid Logo"/>
+  <img src="./public/logo.svg" height="100" alt="Mawrid Logo"/>
   <h1>مورد</h1>
   <p>منصة تهدف إلى جمع وتوثيق المشاريع الإسلامية المتنوعة في مكان واحد لتسهيل الوصول، وتشجيع التعاون، وتجنب التكرار.</p>
 

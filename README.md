@@ -1,8 +1,8 @@
 <div align="center">
-  <img src="./public/logo.png" height="100" alt="Mawrid Logo"/>
+  <img src="./public/logo.svg" height="100" alt="Mawrid Logo"/>
   <h1>Mawrid</h1>
   <p>A platform that gathers and documents diverse Islamic projects in one place</p>
-  
+
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Version](https://img.shields.io/github/package-json/v/mohmmedraad/mawrid)
 ![Contributors](https://img.shields.io/github/contributors/mohmmedraad/mawrid)
