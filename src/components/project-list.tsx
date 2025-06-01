@@ -54,10 +54,12 @@ function ProjectCard({ project }: { project: Project }) {
 				)}
 				<CardHeader>
 					<CardTitle>{project.title}</CardTitle>
-					<CardDescription>{project.description}</CardDescription>
+					<CardDescription className="line-clamp-3">
+						{project.description}
+					</CardDescription>
 				</CardHeader>
 				<CardContent />
-				<CardFooter className="flex justify-around border-t pt-4">
+				<CardFooter className="mt-auto flex justify-around border-t">
 					{project.links.map((link) => {
 						const Icon = PROJECT_LINK_ICONS[link.type];
 						return (
