@@ -1,3 +1,5 @@
+import { type IconProps, Icons } from "@/components/icons";
+import type { ProjectLinkType } from "@/types";
 import {
 	Book,
 	FileText,
@@ -58,3 +60,12 @@ export const I18N = {
 	rtlLocals: ["ar"],
 	ltrLocals: ["en"],
 } as const;
+
+export const PROJECT_LINK_ICONS: Record<
+	ProjectLinkType,
+	(props: IconProps) => React.JSX.Element
+> = {
+	website: Icons.globe,
+	"apple-store": Icons.appleStore,
+	"play-store": Icons.playStore,
+};
