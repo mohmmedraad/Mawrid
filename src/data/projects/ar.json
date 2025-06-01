@@ -18,5 +18,21 @@
 		"image": "https://www.nekhtem.com/assets/images/logo.svg",
 		"categories": ["quran-tafsir", "multilingual"],
 		"description": "برنامج نختم يجعلك تقرأ أية في كل مرة تفتح فيها جوالك ، حتى لا تكون من الذين \"اتخذوا هذا القرآن مهجورا\"."
+	},
+	{
+		"links": [
+			{
+				"type": "play-store",
+				"link": "https://play.google.com/store/apps/details?id=com.aya.stop"
+			},
+			{
+				"type": "apple-store",
+				"link": "https://apps.apple.com/us/app/ayah-stopped-me-%D8%A2%D9%8A%D8%A9-%D8%A7%D8%B3%D8%AA%D9%88%D9%82%D9%81%D8%AA%D9%86%D9%8A/id1484625822"
+			}
+		],
+		"title": "آية استوقفتني",
+		"image": "https://play-lh.googleusercontent.com/dgp3IdKnzmrsEL_dZ3HMJWRTAjtOAopkgy4obcqFsP0sjJjQ5TljWWRdhA0QpLzvM0Lt=w240-h480",
+		"categories": ["quran-tafsir", "multilingual"],
+		"description": "ومضات لتيسير تدبر واتباع الايات."
 	}
 ]
