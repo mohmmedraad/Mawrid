@@ -50,4 +50,94 @@ export const Icons = {
 			/>
 		</svg>
 	),
+	appleStore: (props: IconProps) => (
+		// biome-ignore lint/a11y/noSvgWithoutTitle: <explanation>
+		<svg
+			width="28"
+			height="28"
+			viewBox="0 0 28 28"
+			fill="none"
+			xmlns="http://www.w3.org/2000/svg"
+			{...props}
+		>
+			<path
+				d="M15.1045 3.55469C15.3589 2.89407 15.8076 2.32613 16.3915 1.92582C16.9754 1.52551 17.6669 1.31167 18.3748 1.3125"
+				stroke="currentColor"
+				strokeWidth="2"
+				strokeLinecap="round"
+				strokeLinejoin="round"
+			/>
+			<path
+				d="M23.8984 17.8174C22.5203 21.1862 20.0266 23.6252 17.9375 23.6252H10.0625C7 23.6252 3.0625 18.3752 3.0625 12.6877C3.06295 11.4211 3.42995 10.1817 4.11922 9.11897C4.80849 8.05629 5.79056 7.21578 6.94694 6.69888C8.10331 6.18199 9.38456 6.01078 10.6361 6.20593C11.8876 6.40108 13.0559 6.95425 14 7.79868V7.79868C14.6683 7.19998 15.4522 6.74467 16.3034 6.4609C17.1546 6.17712 18.0549 6.0709 18.9488 6.14881C19.8426 6.22671 20.711 6.48708 21.5003 6.91383C22.2895 7.34058 22.9829 7.92464 23.5375 8.62993V8.62993C22.7336 9.11533 22.0747 9.80745 21.6293 10.6342C21.1839 11.4609 20.9684 12.3919 21.0053 13.3302C21.0422 14.2686 21.33 15.1798 21.8389 15.9691C22.3477 16.7583 23.059 17.3966 23.8984 17.8174V17.8174Z"
+				stroke="currentColor"
+				strokeWidth="2"
+				strokeLinecap="round"
+				strokeLinejoin="round"
+			/>
+		</svg>
+	),
+	playStore: (props: IconProps) => (
+		// biome-ignore lint/a11y/noSvgWithoutTitle: <explanation>
+		<svg
+			width="28"
+			height="28"
+			viewBox="0 0 28 28"
+			fill="none"
+			xmlns="http://www.w3.org/2000/svg"
+			{...props}
+		>
+			<path
+				d="M4.35352 24.5109C4.35485 24.6649 4.39682 24.8158 4.47518 24.9484C4.55355 25.0811 4.66553 25.1906 4.7998 25.2661C4.93408 25.3416 5.0859 25.3802 5.23992 25.3782C5.39394 25.3762 5.54469 25.3336 5.67695 25.2546L24.0301 14.7437C24.1651 14.672 24.278 14.5649 24.3568 14.4338C24.4355 14.3028 24.4772 14.1528 24.4772 13.9999C24.4772 13.8471 24.4355 13.6971 24.3568 13.566C24.278 13.435 24.1651 13.3279 24.0301 13.2562L5.67695 2.74525C5.54469 2.6663 5.39394 2.62367 5.23992 2.62166C5.0859 2.61964 4.93408 2.65832 4.7998 2.73379C4.66553 2.80925 4.55355 2.91882 4.47518 3.05143C4.39682 3.18403 4.35485 3.33498 4.35352 3.489V24.5109Z"
+				stroke="currentColor"
+				strokeWidth="2"
+				strokeLinecap="round"
+				strokeLinejoin="round"
+			/>
+			<path
+				d="M4.61523 2.86572L19.2387 17.4892"
+				stroke="currentColor"
+				strokeWidth="2"
+				strokeLinecap="round"
+				strokeLinejoin="round"
+			/>
+			<path
+				d="M4.61523 25.1342L19.2387 10.5107"
+				stroke="currentColor"
+				strokeWidth="2"
+				strokeLinecap="round"
+				strokeLinejoin="round"
+			/>
+		</svg>
+	),
+	globe: (props: IconProps) => (
+		// biome-ignore lint/a11y/noSvgWithoutTitle: <explanation>
+		<svg
+			width="28"
+			height="28"
+			viewBox="0 0 28 28"
+			fill="none"
+			xmlns="http://www.w3.org/2000/svg"
+			{...props}
+		>
+			<path
+				d="M14 24.5C19.799 24.5 24.5 19.799 24.5 14C24.5 8.20101 19.799 3.5 14 3.5C8.20101 3.5 3.5 8.20101 3.5 14C3.5 19.799 8.20101 24.5 14 24.5Z"
+				stroke="currentColor"
+				strokeWidth="2"
+				strokeMiterlimit="10"
+			/>
+			<path
+				d="M3.5 14H24.5"
+				stroke="currentColor"
+				strokeWidth="2"
+				strokeLinecap="round"
+				strokeLinejoin="round"
+			/>
+			<path
+				d="M14 24.2154C16.4162 24.2154 18.375 19.6417 18.375 13.9998C18.375 8.35787 16.4162 3.78418 14 3.78418C11.5838 3.78418 9.625 8.35787 9.625 13.9998C9.625 19.6417 11.5838 24.2154 14 24.2154Z"
+				stroke="currentColor"
+				strokeWidth="2"
+				strokeMiterlimit="10"
+			/>
+		</svg>
+	),
 };

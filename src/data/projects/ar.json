@@ -1,16 +1,22 @@
 [
 	{
-		"link": "https://quran.com",
-		"title": "Quran.com",
-		"image": "https://quran.com/images/logo/Logo@192x192.png",
+		"links": [
+			{
+				"type": "website",
+				"link": "https://www.nekhtem.com/"
+			},
+			{
+				"type": "play-store",
+				"link": "https://play.google.com/store/apps/details?id=com.karim.khatma&hl=ar"
+			},
+			{
+				"type": "apple-store",
+				"link": "https://apps.apple.com/us/app/%D9%86%D8%AE%D8%AA%D9%85/id1348796942"
+			}
+		],
+		"title": "نختم",
+		"image": "https://www.nekhtem.com/assets/images/logo.svg",
 		"categories": ["quran-tafsir", "multilingual"],
-		"description": "قارئ قرآن شهير على الإنترنت يحتوي على ترجمات وتفسير وتلاوات."
-	},
-	{
-		"link": "https://yaqeeninstitute.org",
-		"title": "معهد يقين",
-		"image": "https://yaqeeninstitute.org/meta/rebrand-2025/favicon-32x32.png",
-		"categories": ["education", "research-publications", "community-dawah"],
-		"description": "محتوى إسلامي قائم على البحث يعالج الشبهات ويعمّق الإيمان."
+		"description": "برنامج نختم يجعلك تقرأ أية في كل مرة تفتح فيها جوالك ، حتى لا تكون من الذين \"اتخذوا هذا القرآن مهجورا\"."
 	}
 ]
