@@ -39,7 +39,7 @@ export async function generateMetadata({
 			card: "summary_large_image",
 			title: `${t("name")} - ${t("title")}`,
 			description: t("description"),
-			images: `${SITE.url}/og.png`,
+			images: `${SITE.url}/${t("open-graph")}`,
 			creator: SITE.creator.socials.x,
 		},
 		icons: {

@@ -22,6 +22,7 @@
 		"keywords": ["Islam", "Quran", "Islamic Projects", "Tafsir", "Hadith"],
 		"author-name": "Mohammed Raad",
 		"creator-name": "Mohammed Raad",
-		"category": "Islamic Platform"
+		"category": "Islamic Platform",
+		"open-graph": "og.png"
 	}
 }
