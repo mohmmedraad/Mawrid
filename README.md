@@ -1,29 +1,92 @@
-# Create T3 App
+<div align="center">
+  <img src="./public/logo.png" height="100" alt="Mawrid Logo"/>
+  <h1>Mawrid</h1>
+  <p>A platform that gathers and documents diverse Islamic projects in one place</p>
+  
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Version](https://img.shields.io/github/package-json/v/mohmmedraad/mawrid)
+![Contributors](https://img.shields.io/github/contributors/mohmmedraad/mawrid)
+![Stars](https://img.shields.io/github/stars/mohmmedraad/mawrid?style=social)
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+[🇸🇦 العربية](README.ar.md) | [🇺🇸 English](README.md)
 
-## What's next? How do I make an app with this?
+</div>
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+<br/>
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+![](https://i.imgur.com/waxVImv.png)
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+<br/>
 
-## Learn More
+## 📋 Description
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+Mawrid is a comprehensive platform designed to centralize Islamic projects and resources. Our mission is to create a unified space where developers, researchers, and the Muslim community can discover, contribute to, and collaborate on Islamic digital initiatives, reducing duplication of efforts and fostering innovation.
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+## 🚀 How to Run Locally
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+To set up and run Mawrid on your local machine:
 
-## How do I deploy this?
+```bash
+git clone https://github.com/mohmmedraad/Mawrid.git
+cd mawrid
+pnpm install
+pnpm run dev
+```
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+Make sure you have [Node.js](https://nodejs.org/) and [pnpm](https://pnpm.io/) installed on your system before running these commands.
+
+## 🤝 How to Contribute
+
+We welcome contributions from the community! To add a new Islamic project to our database:
+
+1. **Fork the repository** and create a new branch for your contribution
+2. **Navigate to the data directory**: `src/data/projects/`
+3. **Add your project to both language files**:
+    - `en.json` (English version)
+    - `ar.json` (Arabic version)
+
+### 📝 Project Entry Format
+
+Each project entry should follow this structure:
+
+**English (`en.json`):**
+
+```json
+{
+    "link": "https://quran.com",
+    "title": "Quran.com",
+    "image": "https://quran.com/images/logo/Logo@192x192.png",
+    "categories": ["quran-tafsir", "multilingual"],
+    "description": "A popular online Qur'an reader with translations, tafsir, and recitations."
+}
+```
+
+**Arabic (`ar.json`):**
+
+```json
+{
+    "link": "https://quran.com",
+    "title": "Quran.com",
+    "image": "https://quran.com/images/logo/Logo@192x192.png",
+    "categories": ["quran-tafsir", "multilingual"],
+    "description": "قارئ قرآن شهير على الإنترنت يحتوي على ترجمات وتفسير وتلاوات."
+}
+```
+
+### ✅ Required Fields:
+
+-   **link**: The project's main URL
+-   **title**: Project name
+-   **image**: Logo or representative image URL
+-   **categories**: Array of relevant categories
+-   **description**: Brief description of the project
+
+4. **Submit a Pull Request** with a clear description of the project you're adding
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📞 Contact
+
+For questions or suggestions, please open an issue on this repository.
