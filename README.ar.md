@@ -53,11 +53,24 @@ pnpm run dev
 
 ```json
 {
-    "link": "https://quran.com",
-    "title": "Quran.com",
-    "image": "https://quran.com/images/logo/Logo@192x192.png",
-    "categories": ["quran-tafsir", "multilingual"],
-    "description": "A popular online Qur'an reader with translations, tafsir, and recitations."
+		"links": [
+			{
+				"type": "website",
+				"link": "https://www.nekhtem.com/"
+			},
+			{
+				"type": "play-store",
+				"link": "https://play.google.com/store/apps/details?id=com.karim.khatma&hl=ar"
+			},
+			{
+				"type": "apple-store",
+				"link": "https://apps.apple.com/us/app/%D9%86%D8%AE%D8%AA%D9%85/id1348796942"
+			}
+		],
+		"title": "Nakhtem",
+		"image": "https://www.nekhtem.com/assets/images/logo.svg",
+		"categories": ["quran-tafsir", "multilingual"],
+		"description": "Nakhtem Application It makes you read a verse every time you open your mobile phone, so that you are not among those who \"have taken this Quran as something neglected.\""
 }
 ```
 
@@ -79,7 +92,7 @@ pnpm run dev
             "link": "https://apps.apple.com/us/app/%D9%86%D8%AE%D8%AA%D9%85/id1348796942"
         }
     ],
-    "title": "Nakhtem",
+    "title": "نختم",
     "image": "https://www.nekhtem.com/assets/images/logo.svg",
     "categories": ["quran-tafsir", "multilingual"],
     "description": "تطبيق نختم يجعلك تقرأ آية في كل مرة تفتح فيها هاتفك المحمول، حتى لا تكون ممن {اتخذوا هذا القرآن مهجورا}"
