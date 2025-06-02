@@ -53,24 +53,24 @@ Each project entry should follow this structure:
 
 ```json
 {
-		"links": [
-			{
-				"type": "website",
-				"link": "https://www.nekhtem.com/"
-			},
-			{
-				"type": "play-store",
-				"link": "https://play.google.com/store/apps/details?id=com.karim.khatma&hl=ar"
-			},
-			{
-				"type": "apple-store",
-				"link": "https://apps.apple.com/us/app/%D9%86%D8%AE%D8%AA%D9%85/id1348796942"
-			}
-		],
-		"title": "Nakhtem",
-		"image": "https://www.nekhtem.com/assets/images/logo.svg",
-		"categories": ["quran-tafsir", "multilingual"],
-		"description": "Nakhtem Application It makes you read a verse every time you open your mobile phone, so that you are not among those who \"have taken this Quran as something neglected.\""
+    "links": [
+        {
+            "type": "website",
+            "link": "https://www.nekhtem.com/"
+        },
+        {
+            "type": "play-store",
+            "link": "https://play.google.com/store/apps/details?id=com.karim.khatma&hl=ar"
+        },
+        {
+            "type": "apple-store",
+            "link": "https://apps.apple.com/us/app/%D9%86%D8%AE%D8%AA%D9%85/id1348796942"
+        }
+    ],
+    "title": "Nakhtem",
+    "image": "https://www.nekhtem.com/assets/images/logo.svg",
+    "categories": ["quran-tafsir", "multilingual"],
+    "description": "Nakhtem Application It makes you read a verse every time you open your mobile phone, so that you are not among those who \"have taken this Quran as something neglected.\""
 }
 ```
 
